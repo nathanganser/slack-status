@@ -1,0 +1,24 @@
+{
+  "name": "first-bolt-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "local": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^2.2.3",
+    "@slack/events-api": "^2.3.3",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodeman": "^1.1.2"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
